@@ -21,7 +21,7 @@ else
 fi
 
 # Patch it
-for patch in *.patch; do
+for patch in patches/*.patch; do
     patch /tmp/ghacks/user.js < $patch
 done
 
