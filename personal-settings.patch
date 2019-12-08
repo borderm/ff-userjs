@@ -1,0 +1,12 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..3f502ff 100644
+--- a/user.js
++++ b/user.js
+@@ -1787,3 +1787,7 @@ user_pref("offline-apps.allow_by_default", false);
+ 
+ /* END: internal custom pref to test for syntax errors ***/
+ user_pref("_user.js.parrot", "SUCCESS: No no he's not dead, he's, he's restin'!");
++
++/* My custom settings unrelated to ghacks*/
++/* Switch through tabs sequentially rather than last used */
++user_pref("browser.ctrlTab.recentlyUsedOrder", false);

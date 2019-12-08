@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..a9f91c9 100644
+--- a/user.js
++++ b/user.js
+@@ -319,7 +319,7 @@ user_pref("browser.safebrowsing.downloads.remote.url", "");
+  * If clicked, it bypasses the block for that session. This is a means for admins to enforce SB
+  * [TEST] see github wiki APPENDIX A: Test Sites: Section 5
+  * [1] https://bugzilla.mozilla.org/1226490 ***/
+-   // user_pref("browser.safebrowsing.allowOverride", false);
++user_pref("browser.safebrowsing.allowOverride", true);
+ 
+ /*** [SECTION 0500]: SYSTEM ADD-ONS / EXPERIMENTS
+      System Add-ons are a method for shipping extensions, considered to be

@@ -1,0 +1,24 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..fbb1e95 100644
+--- a/user.js
++++ b/user.js
+@@ -265,6 +265,11 @@ user_pref("browser.crashReports.unsubmittedCheck.enabled", false); // [FF51+]
+ /* 0351: disable backlogged Crash Reports
+  * [SETTING] Privacy & Security>Firefox Data Collection & Use>Allow Firefox to send backlogged crash reports  ***/
+ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); // [FF58+]
++/* 0370: disable Pocket [FF46+]
++ * Pocket is a third party (now owned by Mozilla) "save for later" cloud service
++ * [1] https://en.wikipedia.org/wiki/Pocket_(application)
++ * [2] https://www.gnu.gl/blog/Posts/multiple-vulnerabilities-in-pocket/ ***/
++ user_pref("extensions.pocket.enabled", false);
+ /* 0390: disable Captive Portal detection
+  * [1] https://www.eff.org/deeplinks/2017/08/how-captive-portals-interfere-wireless-security-and-privacy
+  * [2] https://wiki.mozilla.org/Necko/CaptivePortal ***/
+@@ -1621,7 +1626,6 @@ user_pref("_user.js.parrot", "5000 syntax error: this is an ex-parrot!");
+    // user_pref("view_source.tab", false); // view "page/selection source" in a new window [FF68+, FF59 and under]
+ /* UX FEATURES: disable and hide the icons and menus ***/
+    // user_pref("browser.messaging-system.whatsNewPanel.enabled", false); // What's New [FF69+]
+-   // user_pref("extensions.pocket.enabled", false); // Pocket Account [FF46+]
+    // user_pref("identity.fxaccounts.enabled", false); // Firefox Accounts & Sync [FF60+] [RESTART]
+    // user_pref("reader.parse-on-load.enabled", false); // Reader View
+ /* OTHER ***/

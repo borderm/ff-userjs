@@ -1,0 +1,15 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..24a0b94 100644
+--- a/user.js
++++ b/user.js
+@@ -425,8 +425,8 @@ user_pref("network.dns.disableIPv6", true);
+  * and the Tor Browser has extra protection, including enhanced sanitizing per Identity.
+  * [1] https://tools.ietf.org/html/rfc7838#section-9
+  * [2] https://www.mnot.net/blog/2016/03/09/alt-svc ***/
+-user_pref("network.http.altsvc.enabled", false);
+-user_pref("network.http.altsvc.oe", false);
++   // user_pref("network.http.altsvc.enabled", false);
++   // user_pref("network.http.altsvc.oe", false);
+ /* 0704: enforce the proxy server to do any DNS lookups when using SOCKS
+  * e.g. in Tor, this stops your local DNS server from knowing your Tor destination
+  * as a remote Tor node will handle the DNS request

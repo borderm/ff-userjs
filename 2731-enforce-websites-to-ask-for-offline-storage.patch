@@ -1,0 +1,15 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..bce6804 100644
+--- a/user.js
++++ b/user.js
+@@ -1265,6 +1265,10 @@ user_pref("network.cookie.thirdparty.nonsecureSessionOnly", true); // [FF58+]
+ user_pref("dom.indexedDB.enabled", true); // [DEFAULT: true]
+ /* 2730: disable offline cache ***/
+ user_pref("browser.cache.offline.enable", false);
++/* 2731: enforce websites to ask to store data for offline use
++ * [1] https://support.mozilla.org/questions/1098540
++ * [2] https://bugzilla.mozilla.org/959985 ***/
++ user_pref("offline-apps.allow_by_default", false);
+ /* 2740: disable service worker cache and cache storage
+  * [NOTE] We clear service worker cache on exiting Firefox (see 2803)
+  * [1] https://w3c.github.io/ServiceWorker/#privacy ***/

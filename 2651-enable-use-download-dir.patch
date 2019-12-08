@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..8930900 100644
+--- a/user.js
++++ b/user.js
+@@ -1185,7 +1185,7 @@ user_pref("network.protocol-handler.external.ms-windows-store", false);
+ /* 2651: enforce user interaction for security by always asking where to download
+  * [SETUP-CHROME] On Android this blocks longtapping and saving images
+  * [SETTING] General>Downloads>Always ask you where to save files ***/
+-user_pref("browser.download.useDownloadDir", false);
++   // user_pref("browser.download.useDownloadDir", false);
+ /* 2652: disable adding downloads to the system's "recent documents" list ***/
+ user_pref("browser.download.manager.addToRecentDocs", false);
+ /* 2653: disable hiding mime types (Options>General>Applications) not associated with a plugin ***/

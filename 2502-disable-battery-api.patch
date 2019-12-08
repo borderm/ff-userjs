@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..52b07d0 100644
+--- a/user.js
++++ b/user.js
+@@ -1073,7 +1073,7 @@ user_pref("_user.js.parrot", "2500 syntax error: the parrot's shuffled off 'is m
+  * e.g. do you have a battery or not, current charging status, charge level, times remaining etc
+  * [NOTE] From FF52+ Battery Status API is only available in chrome/privileged code. see [1]
+  * [1] https://bugzilla.mozilla.org/1313580 ***/
+-   // user_pref("dom.battery.enabled", false);
++user_pref("dom.battery.enabled", false);
+ /* 2504: disable virtual reality devices
+  * Optional protection depending on your connected devices
+  * [1] https://developer.mozilla.org/docs/Web/API/WebVR_API ***/

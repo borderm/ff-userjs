@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..c99dd73 100644
+--- a/user.js
++++ b/user.js
+@@ -1004,7 +1004,7 @@ user_pref("dom.serviceWorkers.enabled", false);
+  * or on start), and you will get a new one within a few seconds.
+  * [1] https://support.mozilla.org/en-US/kb/push-notifications-firefox
+  * [2] https://developer.mozilla.org/en-US/docs/Web/API/Push_API ***/
+-user_pref("dom.push.enabled", false);
++   // user_pref("dom.push.enabled", false);
+    // user_pref("dom.push.userAgentID", "");
+ /* 2306: set a default permission for Notifications (both 2304 and 2305) [FF58+]
+  * 0=always ask (default), 1=allow, 2=block

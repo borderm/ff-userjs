@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..8885d70 100644
+--- a/user.js
++++ b/user.js
+@@ -658,7 +658,7 @@ user_pref("security.ssl.require_safe_negotiation", true);
+  * [1] https://tools.ietf.org/html/rfc5077
+  * [2] https://bugzilla.mozilla.org/967977
+  * [3] https://arxiv.org/abs/1810.07304 ***/
+-user_pref("security.ssl.disable_session_identifiers", true); // [HIDDEN PREF]
++   // user_pref("security.ssl.disable_session_identifiers", true); // [HIDDEN PREF]
+ /* 1204: disable SSL Error Reporting
+  * [1] https://firefox-source-docs.mozilla.org/browser/base/sslerrorreport/preferences.html ***/
+ user_pref("security.ssl.errorReporting.automatic", false);

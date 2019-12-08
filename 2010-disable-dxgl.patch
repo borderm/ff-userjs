@@ -1,0 +1,12 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..1824a26 100644
+--- a/user.js
++++ b/user.js
+@@ -904,6 +904,7 @@ user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true); // [FF70
+  * [1] https://www.contextis.com/resources/blog/webgl-new-dimension-browser-exploitation/
+  * [2] https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern ***/
+ user_pref("webgl.disabled", true);
++user_pref("webgl.dxgl.enabled", false); // [WINDOWS]
+ user_pref("webgl.enable-webgl2", false);
+ /* 2012: limit WebGL ***/
+ user_pref("webgl.min_capability_mode", true);

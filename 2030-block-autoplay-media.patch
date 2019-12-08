@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index 9f74ed7..58e0e46 100644
+--- a/user.js
++++ b/user.js
+@@ -923,7 +923,7 @@ user_pref("media.getusermedia.audiocapture.enabled", false);
+  * 0=Allow all, 1=Block non-muted media (default in FF67+), 2=Prompt (removed in FF66), 5=Block all (FF69+)
+  * [NOTE] You can set exceptions under site permissions
+  * [SETTING] Privacy & Security>Permissions>Autoplay>Settings>Default for all websites ***/
+-   // user_pref("media.autoplay.default", 5);
++user_pref("media.autoplay.default", 5);
+ /* 2031: disable autoplay of HTML5 media if you interacted with the site [FF66+] ***/
+ user_pref("media.autoplay.enabled.user-gestures-needed", false);
+ /* 2032: disable autoplay of HTML5 media in non-active tabs [FF51+]
