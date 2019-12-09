@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index e3bed20..8212390 100644
+--- a/user.js
++++ b/user.js
+@@ -731,7 +731,7 @@ user_pref("security.cert_pinning.enforcement_level", 2);
+  * [1] https://trac.torproject.org/projects/tor/ticket/21323 ***/
+ user_pref("security.mixed_content.block_active_content", true); // [DEFAULT: true]
+ /* 1241: disable insecure passive content (such as images) on https pages [SETUP-WEB] ***/
+-user_pref("security.mixed_content.block_display_content", true);
++    // user_pref("security.mixed_content.block_display_content", true);
+ /* 1243: block unencrypted requests from Flash on encrypted pages to mitigate MitM attacks [FF59+]
+  * [1] https://bugzilla.mozilla.org/1190623 ***/
+ user_pref("security.mixed_content.block_object_subrequest", true);

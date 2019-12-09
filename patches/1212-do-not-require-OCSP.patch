@@ -1,0 +1,13 @@
+diff --git a/user.js b/user.js
+index e3bed20..26fa3e8 100644
+--- a/user.js
++++ b/user.js
+@@ -695,7 +695,7 @@ user_pref("security.OCSP.enabled", 1);
+  * could have been revoked) and/or you could be under attack (e.g. malicious blocking of OCSP servers)
+  * [1] https://blog.mozilla.org/security/2013/07/29/ocsp-stapling-in-firefox/
+  * [2] https://www.imperialviolet.org/2014/04/19/revchecking.html ***/
+-user_pref("security.OCSP.require", true);
++    // user_pref("security.OCSP.require", true);
+ 
+ /** CERTS / HPKP (HTTP Public Key Pinning) ***/
+ /* 1220: disable or limit SHA-1 certificates
