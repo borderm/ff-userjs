@@ -1,11 +1,11 @@
 diff --git a/user.js b/user.js
-index 9f74ed7..4b25d57 100644
+index aaddac3..f74bcae 100644
 --- a/user.js
 +++ b/user.js
-@@ -839,7 +839,7 @@ user_pref("network.http.referer.hideOnionSource", true);
+@@ -850,7 +850,7 @@ user_pref("network.http.referer.hideOnionSource", true);
  /* 1610: ALL: enable the DNT (Do Not Track) HTTP header
-  * [NOTE] DNT is enforced with Tracking Protection regardless of this pref
-  * [SETTING] Privacy & Security>Content Blocking>Send websites a "Do Not Track"... ***/
+  * [NOTE] DNT is enforced with Enhanced Tracking Protection regardless of this pref
+  * [SETTING] Privacy & Security>Enhanced Tracking Protection>Send websites a "Do Not Track" signal... ***/
 -user_pref("privacy.donottrackheader.enabled", true);
 +user_pref("privacy.donottrackheader.enabled", false);
  
