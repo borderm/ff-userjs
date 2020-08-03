@@ -1,0 +1,13 @@
+diff --git user.js user.js
+index b61dc57..6c30389 100644
+--- user.js
++++ user.js
+@@ -1120,7 +1120,7 @@ user_pref("dom.webaudio.enabled", false);
+ /* 2520: disable virtual reality devices
+  * Optional protection depending on your connected devices
+  * [1] https://developer.mozilla.org/docs/Web/API/WebVR_API ***/
+-   // user_pref("dom.vr.enabled", false);
++user_pref("dom.vr.enabled", false);
+ /* 2521: set a default permission for Virtual Reality (see 2520) [FF73+]
+  * 0=always ask (default), 1=allow, 2=block
+  * [SETTING] to add site exceptions: Page Info>Permissions>Access Virtual Reality Devices
