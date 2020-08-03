@@ -22,7 +22,8 @@ fi
 
 # Patch it
 for patch in patches/*.patch; do
-    patch /tmp/ghacks/user.js < $patch
+	echo "=== Applying $patch ==="
+    patch -p0 -i $patch /tmp/ghacks/user.js
 done
 
 # Copy it to the repo
