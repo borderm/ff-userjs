@@ -1,13 +1,13 @@
-diff --git a/user.js b/user.js
-index 9f74ed7..6ddfb22 100644
---- a/user.js
-+++ b/user.js
-@@ -125,7 +125,7 @@ user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket",
+diff --git user.js user.js
+index b61dc57..7b67ddd 100644
+--- user.js
++++ user.js
+@@ -124,7 +124,7 @@ user_pref("browser.newtabpage.activity-stream.section.highlights.includePocket",
  user_pref("browser.newtabpage.activity-stream.showSponsored", false);
  user_pref("browser.newtabpage.activity-stream.feeds.discoverystreamfeed", false); // [FF66+]
  /* 0105d: disable Activity Stream recent Highlights in the Library [FF57+] ***/
 -   // user_pref("browser.library.activity-stream.enabled", false);
 +user_pref("browser.library.activity-stream.enabled", false);
- /* 0110: start Firefox in PB (Private Browsing) mode
-  * [NOTE] In this mode *all* windows are "private windows" and the PB mode icon is not displayed
-  * [WARNING] The P in PB mode is misleading: it means no "persistent" disk storage such as history,
+ /* 0105e: clear default topsites
+  * [NOTE] This does not block you from adding your own ***/
+ user_pref("browser.newtabpage.activity-stream.default.sites", "");
