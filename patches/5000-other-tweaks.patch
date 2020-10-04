@@ -1,14 +1,15 @@
-diff --git user.js user.js
-index b61dc57..b8ee70e 100644
---- user.js
-+++ user.js
-@@ -1678,6 +1678,10 @@ user_pref("_user.js.parrot", "5000 syntax error: this is an ex-parrot!");
+diff --git a/user.js b/user.js
+index 7f02fdf..5bb272e 100644
+--- a/user.js
++++ b/user.js
+@@ -1667,6 +1667,11 @@ user_pref("_user.js.parrot", "5000 syntax error: this is an ex-parrot!");
     // user_pref("identity.fxaccounts.enabled", false); // Firefox Accounts & Sync [FF60+] [RESTART]
     // user_pref("reader.parse-on-load.enabled", false); // Reader View
  /* OTHER ***/
 +user_pref("gfx.webrender.all", true); // Enabled webrender
 +user_pref("media.ffvpx.enabled", false); // Disable bundled ffmpeg
 +user_pref("idget.wayland-dmabuf-vaapi.enabled", true); // Enable wayland vaapi
++user_pref("media.ffmpeg.vaapi.enabled", true); // Enable vaapi on X11 acceleration
 +user_pref("browser.ctrlTab.recentlyUsedOrder", false); //Switch through tabs sequentially rather than last used
     // user_pref("browser.bookmarks.max_backups", 2);
     // user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false); // disable CFR [FF67+]
