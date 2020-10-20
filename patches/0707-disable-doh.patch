@@ -1,8 +1,8 @@
 diff --git a/user.js b/user.js
-index 9f74ed7..3c07aba 100644
+index 7cdf263..c00c07b 100644
 --- a/user.js
 +++ b/user.js
-@@ -432,6 +432,16 @@ user_pref("network.http.altsvc.oe", false);
+@@ -409,6 +409,16 @@ user_pref("network.http.altsvc.oe", false);
   * as a remote Tor node will handle the DNS request
   * [1] https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/WebBrowsers ***/
  user_pref("network.proxy.socks_remote_dns", true);
@@ -13,9 +13,9 @@ index 9f74ed7..3c07aba 100644
 + * [WARNING] DoH bypasses hosts and gives info to yet another party (e.g. Cloudflare)
 + * [1] https://www.ghacks.net/2018/04/02/configure-dns-over-https-in-firefox/
 + * [2] https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/ ***/
-+ user_pref("network.trr.mode", 5);
-+ user_pref("network.trr.bootstrapAddress", "");
-+ user_pref("network.trr.uri", "");
- /* 0708: disable FTP [FF60+]
-  * [1] https://www.ghacks.net/2018/02/20/firefox-60-with-new-preference-to-disable-ftp/ ***/
++user_pref("network.trr.mode", 5);
++user_pref("network.trr.bootstrapAddress", "");
++user_pref("network.trr.uri", "");
+ /* 0708: disable FTP [FF60+] ***/
     // user_pref("network.ftp.enabled", false);
+ /* 0709: disable using UNC (Uniform Naming Convention) paths [FF61+]
