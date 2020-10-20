@@ -13,11 +13,11 @@ if [ -d /tmp/ghacks ]; then
 	# Delete it with confirmation
 	rm -r /tmp/ghacks
 	# Get the latest version
-	git clone https://github.com/ghacksuserjs/ghacks-user.js.git /tmp/ghacks
+	git clone https://github.com/arkenfox/user.js.git /tmp/ghacks
     fi
 else
     # Get the latest version
-    git clone https://github.com/ghacksuserjs/ghacks-user.js.git /tmp/ghacks
+    git clone https://github.com/arkenfox/user.js.git /tmp/ghacks
 fi
 
 # Patch it
