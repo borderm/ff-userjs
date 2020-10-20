@@ -1,13 +1,13 @@
 diff --git a/user.js b/user.js
-index 9f74ed7..898b408 100644
+index 7cdf263..b46f0ba 100644
 --- a/user.js
 +++ b/user.js
-@@ -1461,7 +1461,7 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); // [HIDDE
-  * not taking anti-fingerprinting seriously and a little visual change upsets you, then feel free to flip this pref
+@@ -1456,7 +1456,7 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true); // [HIDDE
   * [WARNING] The dimension pref is only meant for testing, and we recommend you DO NOT USE it
-  * [1] https://bugzilla.mozilla.org/1407366 ***/
+  * [1] https://bugzilla.mozilla.org/1407366
+  * [2] https://hg.mozilla.org/mozilla-central/rev/6d2d7856e468#l2.32 ***/
 -user_pref("privacy.resistFingerprinting.letterboxing", true); // [HIDDEN PREF]
 +   // user_pref("privacy.resistFingerprinting.letterboxing", true); // [HIDDEN PREF]
     // user_pref("privacy.resistFingerprinting.letterboxing.dimensions", ""); // [HIDDEN PREF]
  /* 4510: disable showing about:blank as soon as possible during startup [FF60+]
-  * When default true (FF62+) this no longer masks the RFP chrome resizing activity
+  * When default true this no longer masks the RFP chrome resizing activity
